@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		522C9DC025E468460039FD1B /* speedconnectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C9DBF25E468460039FD1B /* speedconnectionsApp.swift */; };
-		522C9DC225E468460039FD1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C9DC125E468460039FD1B /* ContentView.swift */; };
+		522C9DC225E468460039FD1B /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C9DC125E468460039FD1B /* LobbyView.swift */; };
 		522C9DC425E468470039FD1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522C9DC325E468470039FD1B /* Assets.xcassets */; };
 		522C9DC725E468470039FD1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522C9DC625E468470039FD1B /* Preview Assets.xcassets */; };
+		522C9DD125E470B30039FD1B /* DeckBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C9DD025E470B30039FD1B /* DeckBrowserView.swift */; };
+		522C9DD425E477DD0039FD1B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C9DD325E477DD0039FD1B /* Deck.swift */; };
+		522C9DD725E4784E0039FD1B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C9DD625E4784E0039FD1B /* ModelData.swift */; };
+		522C9DDB25E4797E0039FD1B /* decks.json in Resources */ = {isa = PBXBuildFile; fileRef = 522C9DDA25E4797E0039FD1B /* decks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		522C9DBC25E468460039FD1B /* speedconnections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedconnections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522C9DBF25E468460039FD1B /* speedconnectionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedconnectionsApp.swift; sourceTree = "<group>"; };
-		522C9DC125E468460039FD1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		522C9DC125E468460039FD1B /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
 		522C9DC325E468470039FD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522C9DC625E468470039FD1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		522C9DC825E468470039FD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522C9DD025E470B30039FD1B /* DeckBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckBrowserView.swift; sourceTree = "<group>"; };
+		522C9DD325E477DD0039FD1B /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		522C9DD625E4784E0039FD1B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		522C9DDA25E4797E0039FD1B /* decks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = decks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 		522C9DBE25E468460039FD1B /* speedconnections */ = {
 			isa = PBXGroup;
 			children = (
+				522C9DD925E4795A0039FD1B /* Resources */,
 				522C9DBF25E468460039FD1B /* speedconnectionsApp.swift */,
-				522C9DC125E468460039FD1B /* ContentView.swift */,
+				522C9DD325E477DD0039FD1B /* Deck.swift */,
+				522C9DD625E4784E0039FD1B /* ModelData.swift */,
+				522C9DC125E468460039FD1B /* LobbyView.swift */,
+				522C9DD025E470B30039FD1B /* DeckBrowserView.swift */,
 				522C9DC325E468470039FD1B /* Assets.xcassets */,
 				522C9DC825E468470039FD1B /* Info.plist */,
 				522C9DC525E468470039FD1B /* Preview Content */,
@@ -67,6 +79,14 @@
 				522C9DC625E468470039FD1B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		522C9DD925E4795A0039FD1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				522C9DDA25E4797E0039FD1B /* decks.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522C9DDB25E4797E0039FD1B /* decks.json in Resources */,
 				522C9DC725E468470039FD1B /* Preview Assets.xcassets in Resources */,
 				522C9DC425E468470039FD1B /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522C9DC225E468460039FD1B /* ContentView.swift in Sources */,
+				522C9DD425E477DD0039FD1B /* Deck.swift in Sources */,
+				522C9DD125E470B30039FD1B /* DeckBrowserView.swift in Sources */,
+				522C9DD725E4784E0039FD1B /* ModelData.swift in Sources */,
+				522C9DC225E468460039FD1B /* LobbyView.swift in Sources */,
 				522C9DC025E468460039FD1B /* speedconnectionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

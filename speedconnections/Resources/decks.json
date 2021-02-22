@@ -1,0 +1,71 @@
+[
+    {
+        "id": "love"
+        "name": "Love"
+        "description": "Questions about love and shit <3"
+        "questions": [
+            "Describe something that really touched your heart.",
+            "How does love feel to you?",
+            "What is love?",
+            "Describe something you are passionate about.",
+            "Describe someone you love.",
+            "Describe what you love about yourself.",
+            "What is something kind you have done for someone else?"
+        ]
+    },
+    {
+        "id": "spirituality"
+        "name": "Spirituality"
+        "description": "Questions about god n shit <3"
+        "questions": [
+            "Do you believe in a higher power?",
+            "What is the base way that you see the world?",
+            "Has anything happened to you that you cannot explain?",
+            "How do you connect with yourself?"
+        ]
+    },
+    {
+        "id": "self"
+        "name": "Self"
+        "description": "Deep dive into you"
+        "questions": [
+            "Do you believe in a higher power?",
+            "What is the base way that you see the world?",
+            "Has anything happened to you that you cannot explain?",
+            "How do you connect with yourself?"
+        ]
+    },
+    {
+        "id": "dreams"
+        "name": "Dreams"
+        "description": "Deep dive into you"
+        "questions": [
+            "Do you believe in a higher power?",
+            "What is the base way that you see the world?",
+            "Has anything happened to you that you cannot explain?",
+            "How do you connect with yourself?"
+        ]
+    },
+    {
+        "id": "anxieties"
+        "name": "Anxieties"
+        "description": "Deep dive into you"
+        "questions": [
+            "Do you believe in a higher power?",
+            "What is the base way that you see the world?",
+            "Has anything happened to you that you cannot explain?",
+            "How do you connect with yourself?"
+        ]
+    },
+    {
+        "id": "misc"
+        "name": "Miscellaneous"
+        "description": "Deep dive into you"
+        "questions": [
+            "Do you believe in a higher power?",
+            "What is the base way that you see the world?",
+            "Has anything happened to you that you cannot explain?",
+            "How do you connect with yourself?"
+        ]
+    }
+]
