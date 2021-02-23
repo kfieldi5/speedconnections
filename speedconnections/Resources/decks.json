@@ -2,6 +2,7 @@
     {
         "id": "love",
         "name": "Love",
+        "icon": "heart",
         "description": "Questions about love and shit <3",
         "questions": [
             "Describe something that really touched your heart.",
@@ -10,12 +11,18 @@
             "Describe something you are passionate about.",
             "Describe someone you love.",
             "Describe what you love about yourself.",
-            "What is something kind you have done for someone else?"
+            "What is something kind you have done for someone else?",
+            "What is something kind someone has done for you?",
+            "Describe a moment when you felt loved.",
+            "What brings you joy?",
+            "Describe a time where you witnessed joy",
+            "How is your heart?"
         ]
     },
     {
         "id": "spirituality",
         "name": "Spirituality",
+        "icon": "staroflife",
         "description": "Questions about god n shit <3",
         "questions": [
             "Do you believe in a higher power?",
@@ -27,45 +34,90 @@
     {
         "id": "self",
         "name": "Self",
+        "icon": "person",
         "description": "Deep dive into you",
         "questions": [
-            "Do you believe in a higher power?",
-            "What is the base way that you see the world?",
-            "Has anything happened to you that you cannot explain?",
-            "How do you connect with yourself?"
+            "Who are you?",
+            "What is the biggest thing you’ve learned about yourself in the last 30 days?",
+            "What is one thing you want to focus on to grow?",
+            "Describe an influential moment from your childhood.",
+            "What is one thing you need more of right now?",
+            "Describe your relationship with your mom.",
+            "Describe your relationship with your dad.",
+            "What does friendship mean to you?",
+            "Describe your relationship with your best friend",
+            "What is your family dynamic like?",
+            "What are you grateful for at this moment?",
+            "What makes you feel powerful?",
+            "What is one thing people misunderstand about you?"
         ]
     },
     {
         "id": "dreams",
         "name": "Dreams",
+        "icon": "moon.zzz",
         "description": "Deep dive into you",
         "questions": [
-            "Do you believe in a higher power?",
-            "What is the base way that you see the world?",
-            "Has anything happened to you that you cannot explain?",
-            "How do you connect with yourself?"
+            "When was the last time you felt truly alive?",
+            "What would you do if you couldn’t fail?",
+            "Where do you need help right now?",
+            "What is the best piece of advice you’ve received?",
+            "What is one thing you would change in the world?",
+            "Describe someone you look up to.",
+            "Name a time where you changed your mind.",
+            "What is your relationship with money?",
+            "What do you daydream about?",
+            "Describe an idea you’ve been thinking about.",
+            "Would you choose unlimited time or unlimited resources?"
         ]
     },
     {
         "id": "anxieties",
         "name": "Anxieties",
+        "icon": "umbrella",
         "description": "Deep dive into you",
         "questions": [
-            "Do you believe in a higher power?",
-            "What is the base way that you see the world?",
-            "Has anything happened to you that you cannot explain?",
-            "How do you connect with yourself?"
+            "Name and discuss something you are afraid of.",
+            "Describe a situation you wish was different.",
+            "What is one thing that holds you back?",
+            "Describe a time when you felt hesitant to express yourself.",
+            "What is something that you wish you said?",
+            "Describe a moment when you felt disappointed"
         ]
     },
     {
-        "id": "misc",
-        "name": "Miscellaneous",
+        "id": "sex",
+        "name": "Intimacy",
+        "icon": "flame",
         "description": "Deep dive into you",
         "questions": [
-            "Do you believe in a higher power?",
-            "What is the base way that you see the world?",
-            "Has anything happened to you that you cannot explain?",
-            "How do you connect with yourself?"
+            "Describe the best sex of your life.",
+            "Name a fantasy you have never shared with anyone else."
+        ]
+    },
+    {
+        "id": "general",
+        "name": "Miscellaneous",
+        "icon": "bubble.right",
+        "description": "Deep dive into you",
+        "questions": [
+            "Is home for you a feeling or a place?",
+            "Describe the last time you cried.",
+            "Describe your relationship with nature.",
+            "If you could give all humans an ability, what would it be?",
+            "What is the best meal you’ve ever eaten?",
+            "Describe an encounter you’ve had with an animal.",
+            "How does music make you feel?",
+            "Describe a moment in your life you will never forget.",
+            "If you could time travel, would you go to the future or the past?",
+            "Who is one person you would like to meet?",
+            "How do you feel about time?",
+            "If you could remove one thing from the world what would it be?",
+            "Is there life outside of earth?",
+            "Earth, air, water or fire?",
+            "Describe a time when you felt surprised.",
+            "What is your favorite physical place in the world?",
+            "What is your happy place?"
         ]
     }
 ]

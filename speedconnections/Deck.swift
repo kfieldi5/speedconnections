@@ -11,6 +11,7 @@ import SwiftUI
 struct Deck: Hashable, Codable {
     var id: String
     var name: String
+    var icon: String
     var description: String
     var questions = [String]()
 //    private var imageName: String
