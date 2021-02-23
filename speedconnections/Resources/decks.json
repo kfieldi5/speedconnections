@@ -1,8 +1,8 @@
 [
     {
-        "id": "love"
-        "name": "Love"
-        "description": "Questions about love and shit <3"
+        "id": "love",
+        "name": "Love",
+        "description": "Questions about love and shit <3",
         "questions": [
             "Describe something that really touched your heart.",
             "How does love feel to you?",
@@ -14,9 +14,9 @@
         ]
     },
     {
-        "id": "spirituality"
-        "name": "Spirituality"
-        "description": "Questions about god n shit <3"
+        "id": "spirituality",
+        "name": "Spirituality",
+        "description": "Questions about god n shit <3",
         "questions": [
             "Do you believe in a higher power?",
             "What is the base way that you see the world?",
@@ -25,9 +25,9 @@
         ]
     },
     {
-        "id": "self"
-        "name": "Self"
-        "description": "Deep dive into you"
+        "id": "self",
+        "name": "Self",
+        "description": "Deep dive into you",
         "questions": [
             "Do you believe in a higher power?",
             "What is the base way that you see the world?",
@@ -36,9 +36,9 @@
         ]
     },
     {
-        "id": "dreams"
-        "name": "Dreams"
-        "description": "Deep dive into you"
+        "id": "dreams",
+        "name": "Dreams",
+        "description": "Deep dive into you",
         "questions": [
             "Do you believe in a higher power?",
             "What is the base way that you see the world?",
@@ -47,9 +47,9 @@
         ]
     },
     {
-        "id": "anxieties"
-        "name": "Anxieties"
-        "description": "Deep dive into you"
+        "id": "anxieties",
+        "name": "Anxieties",
+        "description": "Deep dive into you",
         "questions": [
             "Do you believe in a higher power?",
             "What is the base way that you see the world?",
@@ -58,9 +58,9 @@
         ]
     },
     {
-        "id": "misc"
-        "name": "Miscellaneous"
-        "description": "Deep dive into you"
+        "id": "misc",
+        "name": "Miscellaneous",
+        "description": "Deep dive into you",
         "questions": [
             "Do you believe in a higher power?",
             "What is the base way that you see the world?",

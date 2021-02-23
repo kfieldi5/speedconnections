@@ -10,7 +10,7 @@ import SwiftUI
 struct DeckBrowserView: View {
     var body: some View {
         NavigationView {
-            List(decks. id: \.id) { deck in
+            List(decks, id: \.id) { deck in
                 DeckBrowserTile(deck: deck)
             }
         }
@@ -28,10 +28,10 @@ struct DeckBrowserTile: View {
     var deck: Deck
     var body: some View {
         HStack {
-            Image(systemName: .circle)
+            Image(systemName: "x.circle")
                 .resizable()
                 .frame(width:50, height:50)
-            Text(Deck.name)
+            Text(deck.name)
             Spacer()
         }
     }
